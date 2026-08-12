@@ -1,0 +1,336 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinish Meshram - Student Profile</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-700 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-5">
+            <h1 class="text-4xl font-bold text-center">
+                Student Profile
+            </h1>
+            <p class="text-center mt-2">
+                Professional Student Portfolio
+            </p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white">
+        <div class="container mx-auto">
+            <ul class="flex flex-wrap justify-center gap-6 py-4 font-medium">
+                <li>
+                    <a href="#about" class="hover:text-yellow-300">About</a>
+                </li>
+                <li>
+                    <a href="#education" class="hover:text-yellow-300">Education</a>
+                </li>
+                <li>
+                    <a href="#skills" class="hover:text-yellow-300">Skills</a>
+                </li>
+                <li>
+                    <a href="#hobbies" class="hover:text-yellow-300">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#contact" class="hover:text-yellow-300">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-6">
+
+        <!-- About / Profile Section -->
+        <section id="about"
+            class="bg-white rounded-xl shadow-lg p-8 flex flex-col md:flex-row gap-8 items-center">
+
+            <!-- Student Photo -->
+            <article>
+                <img src="student.jpg"
+                     alt="Student Photo"
+                     class="w-64 h-64 rounded-full border-8 border-blue-600 object-cover">
+            </article>
+
+            <!-- Student Details -->
+            <article class="flex-1">
+                <h2 class="text-3xl font-bold text-blue-700 mb-4">
+                    Tinish Meshram
+                </h2>
+
+                <p class="text-gray-700 leading-8 mb-5">
+                    I am a passionate and dedicated Computer Science student
+                    interested in technology, programming, and data science.
+                    I enjoy learning new technical skills and applying my
+                    knowledge to practical projects.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <strong class="text-blue-700">Roll No:</strong>
+                        CD25053
+                    </div>
+
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <strong class="text-blue-700">Gender:</strong>
+                        Male
+                    </div>
+
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <strong class="text-blue-700">Branch:</strong>
+                        CSE-DS
+                    </div>
+
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <strong class="text-blue-700">Semester:</strong>
+                        3rd
+                    </div>
+
+                    <div class="bg-blue-50 p-4 rounded-lg sm:col-span-2">
+                        <strong class="text-blue-700">College:</strong>
+                        SBJIT, Nagpur
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="mt-8 bg-white rounded-xl shadow-lg p-8">
+
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">
+                Education
+            </h2>
+
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse border border-gray-300">
+
+                    <thead>
+                        <tr class="bg-blue-700 text-white">
+                            <th class="border border-gray-300 px-6 py-3">
+                                Qualification
+                            </th>
+                            <th class="border border-gray-300 px-6 py-3">
+                                Status
+                            </th>
+                            <th class="border border-gray-300 px-6 py-3">
+                                Passing Year
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="text-center hover:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 font-medium">
+                                SSC
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                Passed
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                2023
+                            </td>
+                        </tr>
+
+                        <tr class="text-center hover:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 font-medium">
+                                HSC
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                Passed
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                2025
+                            </td>
+                        </tr>
+
+                        <tr class="text-center hover:bg-gray-50">
+                            <td class="border border-gray-300 px-6 py-3 font-medium">
+                                B.Tech / Engineering
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                Pursuing
+                            </td>
+                            <td class="border border-gray-300 px-6 py-3">
+                                -
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="mt-8 bg-white rounded-xl shadow-lg p-8">
+
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">
+                Technical Skills
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        C Programming
+                    </h3>
+                    <p>
+                        Basic programming, loops, functions, arrays and
+                        problem solving.
+                    </p>
+                </article>
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        C++
+                    </h3>
+                    <p>
+                        Object-oriented programming and fundamental
+                        data structures.
+                    </p>
+                </article>
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        Python
+                    </h3>
+                    <p>
+                        Python programming, basic scripting and
+                        problem solving.
+                    </p>
+                </article>
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        HTML & CSS
+                    </h3>
+                    <p>
+                        Creating responsive and attractive web pages.
+                    </p>
+                </article>
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        JavaScript
+                    </h3>
+                    <p>
+                        Basic JavaScript concepts and interactive
+                        web development.
+                    </p>
+                </article>
+
+                <article class="bg-blue-50 p-6 rounded-lg text-center
+                                hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-blue-700 mb-2">
+                        Data Science
+                    </h3>
+                    <p>
+                        Basic knowledge of data analysis, visualization
+                        and machine learning concepts.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="mt-8 bg-white rounded-xl shadow-lg p-8">
+
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">
+                Hobbies & Interests
+            </h2>
+
+            <div class="flex flex-wrap justify-center gap-4">
+
+                <span class="bg-blue-600 text-white px-6 py-3 rounded-full">
+                    🎵 Listening to Music
+                </span>
+
+                <span class="bg-green-600 text-white px-6 py-3 rounded-full">
+                    🎮 Playing Games
+                </span>
+
+                <span class="bg-purple-600 text-white px-6 py-3 rounded-full">
+                    📚 Reading
+                </span>
+
+                <span class="bg-orange-500 text-white px-6 py-3 rounded-full">
+                    💻 Coding
+                </span>
+
+                <span class="bg-red-500 text-white px-6 py-3 rounded-full">
+                    🏏 Playing Cricket
+                </span>
+
+                <span class="bg-teal-600 text-white px-6 py-3 rounded-full">
+                    🌐 Exploring Technology
+                </span>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="mt-8 bg-white rounded-xl shadow-lg p-8">
+
+            <h2 class="text-3xl font-bold text-blue-700 mb-6 text-center">
+                Contact
+            </h2>
+
+            <div class="text-center text-gray-700 space-y-3">
+
+                <p>
+                    <strong>Student Name:</strong> Tinish Meshram
+                </p>
+
+                <p>
+                    <strong>Roll No:</strong> CD25053
+                </p>
+
+                <p>
+                    <strong>Branch:</strong> CSE-DS
+                </p>
+
+                <p>
+                    <strong>College:</strong> SBJIT, Nagpur
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white mt-10">
+        <div class="container mx-auto px-6 py-5 text-center">
+            <p>
+                © 2026 Tinish Meshram | Student Profile
+            </p>
+            <p class="text-blue-200 mt-1">
+                CSE-DS | SBJIT, Nagpur
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+```
